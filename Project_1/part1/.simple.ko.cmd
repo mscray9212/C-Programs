@@ -1,0 +1,1 @@
+cmd_/media/sf_Ubuntu/simple.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-46-generic/scripts/module-common.lds --build-id  -o /media/sf_Ubuntu/simple.ko /media/sf_Ubuntu/simple.o /media/sf_Ubuntu/simple.mod.o
